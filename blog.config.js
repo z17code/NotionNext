@@ -9,7 +9,7 @@ const BLOG = {
     '02ab3b8678004aa69e9e415905ef32a5,en:7c1d570661754c8fbc568e00a01fd70e',
   
   // 核心修改：将默认主题改为 'simple' 以激活下方配置
-  THEME: process.env.NEXT_PUBLIC_THEME || 'simple', 
+  THEME: process.env.NEXT_PUBLIC_THEME || 'next', 
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2021, 
 
